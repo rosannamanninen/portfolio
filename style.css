@@ -1,0 +1,493 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  background-color: #CFC8FF;
+  padding: 0;
+  margin: 0;
+
+
+}
+
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  flex: 1 0 auto;
+  min-height: 100%;
+
+
+}
+
+.content {
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+header {
+    background-color:  #EBE8FF;
+    box-shadow: 0px -15px 20px 10px #403777;
+}
+
+#header1 {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+
+}
+
+.headerinside {
+  margin: 0 ;
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+
+}
+
+header h1, h6 {
+  margin: 0;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0%;
+  color: #1B144A;
+  font-family: "Sancreek", cursive;
+  transition: 0.6s;
+
+}
+
+h6 {
+  font-size: 60px;
+  padding-left: 2%;
+  text-align: left;
+}
+
+.topnav {
+
+  font-family: 'Roboto Mono', monospace;
+  color: #403777;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: space-around;
+  font-size: 180%;
+  max-width: 100%;
+  padding-left: 30%;
+  padding-right: 30%;
+  transition: 0.4s;
+}
+
+.topnav a {
+  display: flex;
+  text-align: center;
+  padding-bottom: 10px;
+  text-decoration: none;
+  padding-left: 4%;
+  padding-right: 4%;
+  transition: 0.3s;
+}
+
+.topnav a:visited {
+  color: #403777;
+
+}
+
+.topnav a:hover {
+  font-size: 110%;
+  padding-bottom: 0px;
+}
+
+.sivu {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.kuvat {
+  max-width: 40%;
+  object-fit: contain;
+
+}
+
+#portrait {
+  padding-top: 0%;
+  max-width: 50%;
+  position: fixed;
+  top: 45%
+  bottom: 55%;
+  left: 2%;
+  z-index: 0;
+
+}
+
+h2 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 45px;
+  color: #403777;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #EBE8FF;
+  text-align: left;
+  padding-left: 10%;
+  margin-bottom: 0;
+}
+
+.projektit {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-width: 900px;
+  padding-top:10%;
+  padding-bottom: 5%;
+  width: 100%;
+
+  align-items: center;
+
+}
+
+.taustapalkki{
+
+  height: 100%;
+  max-width: 900px;
+  width: 100%;
+  background: rgba(235,232 ,255 ,0.4);
+
+
+  min-width: 200px;
+  position: fixed;
+  top: 0%;
+  z-index: -1;
+  transition: 0.3s;
+
+}
+
+.taustapalkki2{
+
+  height: 100%;
+  max-width: 550px;
+  width: 38.3%;
+  background: rgba(235,232 ,255 ,0.4);
+
+
+  min-width: 550px;
+  position: fixed;
+  left: 50%;
+  top: 0%;
+  z-index: -1;
+  transition: 0.3s;
+
+}
+
+
+
+.projektit .leipateksti {
+  padding-left: 2%;
+}
+
+.projekti {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+
+}
+
+.projektikuva {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.Otsikko {
+  position: absolute;
+  width: 100%;
+}
+
+.projektiteksti {
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  max-width: 900px;
+  padding-top: 18px;
+  padding-bottom: 6px;
+}
+
+#projectsnav {
+  text-decoration: none;
+  padding-bottom: 6px;
+  font-size: 150%;
+  padding-left: 0%;
+  max-width: 70%;
+}
+
+
+.tekstit {
+
+  display: flex;
+
+  justify-content:center;
+  padding-top:5%;
+  padding-bottom: 5%;
+  max-width: 1100px;
+  transition: 0.3s;
+}
+
+.linkkejä {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.linkkicontainer {
+  background: rgba(235,232 ,255 ,0.4);
+  height: 100%;
+  width: 20%;
+  right: 60%;
+  min-width: 200px;
+  transition: 0.3s;
+
+  position: fixed;
+  top: 0%;
+
+  z-index: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.linkkejä a {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Roboto Mono', monospace;
+  color: #403777;
+  font-size: 30px;
+  text-decoration: none;
+  background-color:#EBE8FF ;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+
+
+
+}
+
+#teksticontacts {
+  transition: 0.3s;
+}
+
+
+
+.teksti {
+  position: relative;
+  padding-top: 10%;
+  margin-left: 50%;
+  padding-bottom: 10%;
+
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  max-width: 50%;
+  height: 100%;
+  transition: 0.3s;
+
+}
+
+.tekstilaatikko {
+    background-color: #EBE8FF;
+    width: 100%;
+    margin-top: 3%;
+    transition: 0.3s;
+
+}
+
+.tekstilaatikko:hover {
+  width: 102%;
+}
+
+.leipateksti {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 17px;
+  color: #1B144A;
+  max-width: 90%;
+  padding-left: 10%;
+  background-color: #EBE8FF;
+}
+
+h3 {
+  color: #403777;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+footer {
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  background-color: #403777;
+  text-shadow: 0px 2px 8px #1B144A ;
+
+  display: flex;
+  justify-content: center;
+  height: 8%;
+  transition: 0.4;
+  overflow: hidden;
+  box-shadow: 0px 15px 20px 10px #403777;
+}
+
+.footerlinks1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #9EFFC5;
+  font-size: 35px;
+  width: 80%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.6s;
+  padding-top: 0%;
+}
+
+footer a {
+  color: #9EFFC5;
+  text-decoration: none;
+  transition: 0.3s;
+
+
+}
+
+footer a:hover {
+  font-size: 40px;
+}
+
+.kuvakkeet{
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+
+}
+
+.kuvakkeet a {
+  padding-left: 20%;
+
+
+}
+
+#kuvake {
+  width: 30px;
+  height: 30px;
+}
+
+.footerteksti {
+  color: #EBE8FF;
+  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 150%;
+}
+
+
+@media (max-width: 1000px) {
+
+  .tekstilaatikko:hover {
+    width: 100%;
+  }
+
+  .linkkicontainer {
+    width: 20%;
+    right: 80%;
+    align-items: flex-start;
+  }
+
+  .projektit {
+    margin-bottom: 20%;
+    margin-top: 10%;
+  }
+
+  .linkkejä {
+
+    margin-top: 100%;
+  }
+
+  .teksti, #teksticontacts , .taustapalkki2 {
+    max-width: 2000px;
+    width: 60%;
+    margin-left: 20%;
+
+  }
+
+  #portrait {
+    padding-top: 0%;
+    max-width: 60%;
+    position: fixed;
+    left: -23%;
+    z-index: 0;
+    top: 10%;
+  }
+
+  .taustapalkki2 {
+    left: 10%;
+  }
+
+  .leipateksti{
+    font-size: 25px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .tekstilaatikko:hover {
+    width: 100%;
+  }
+
+  .linkkicontainer {
+    width: 20%;
+    right: 80%;
+    align-items: flex-start;
+  }
+
+  .linkkejä {
+
+    margin-top: 100%;
+  }
+
+  .teksti, #teksticontacts , .taustapalkki2 {
+    max-width: 2000px;
+    width: 60%;
+    margin-left: 20%;
+
+  }
+
+  #portrait {
+
+    top: 20%;
+  }
+
+  .taustapalkki2 {
+    left: 10%;
+  }
+
+  .leipateksti{
+    font-size: 25px;
+  }
+}
